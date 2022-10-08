@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+}
+
+#div1 h1 {
+  font-size: 3rem;
+}
+
+#div1 {
+  border-radius: 0px 0px 60px 0px;
+  width: 350px;
+  height: 430px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  position: relative;
+  margin: auto;
+  margin-top: 120px;
+}
+
+#email,
+#password {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  border: 2px solid green;
+  height: 25px;
+}
+
+#div2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#div2 label {
+  font-size: 1.2rem;
+  margin-left: -95px;
+}
+
+#div2 p {
+  cursor: pointer;
+  font-size: 1rem;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+#div2 checkbox {
+  size: 200px;
+}
+
+#myInput {
+  border: none;
+  color: white;
+  background-color: green;
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 15px;
+  left: 95px;
+  right: -20px;
+  width: 145px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.footer {
+  opacity: 0.7;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer span {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
